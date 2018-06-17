@@ -1,0 +1,21 @@
+.gallery{
+    margin-top: 30px;
+    &__title{
+        font-size: 26px;
+        color: #666666;
+        margin-bottom: 20px; 
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__rectangle{
+        margin-bottom: 6px;
+    }
+    &__another-photo{
+        width: 372px;
+    }
+    &__main-photo{
+        width: 568px;
+    }
+}

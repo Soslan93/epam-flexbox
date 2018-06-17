@@ -1,0 +1,182 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 960px;
+  height: 120px; }
+
+.logo {
+  font-size: 36px;
+  font-family: Georgia;
+  color: #505050; }
+
+.psd {
+  font-size: 13px;
+  font-family: Georgia;
+  color: #505050; }
+
+.menu {
+  width: 60%;
+  background-color: #303030;
+  border-radius: 8px; }
+  .menu-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; }
+    .menu-list__link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px; }
+      .menu-list__link:hover {
+        opacity: 0.6; }
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.wrapper {
+  width: 960px; }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    padding: 40px 20px; }
+.slider {
+  background-color: #e2e2e2; }
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: 400px; }
+
+.slide__block {
+  align-self: flex-end;
+  background-color: #000;
+  color: #c1c1c1;
+  width: 400px;
+  height: 180px;
+  margin: 20px;
+  padding: 15px;
+  opacity: 0.6; }
+
+.slide__list {
+  display: flex;
+  margin-right: 5px; }
+
+.slide__link {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  list-style: none;
+  background-color: #c1c1c1;
+  border-radius: 50%; }
+  .slide__link:hover {
+    background-color: #333333;
+    border: 2px solid #c1c1c1; }
+.intro-content {
+  display: flex;
+  justify-content: space-between; }
+  .intro-content__item {
+    width: 300px; }
+  .intro-content__title {
+    font-size: 26px;
+    font-family: Georgia;
+    color: #666; }
+  .intro-content__text {
+    font-size: 13px;
+    font-family: Georgia;
+    color: #666; }
+    .intro-content__text--continue {
+      color: #ff5d30; }
+.gallery {
+  margin-top: 30px; }
+  .gallery__title {
+    font-size: 26px;
+    color: #666666;
+    margin-bottom: 20px; }
+  .gallery__content {
+    display: flex;
+    justify-content: space-between; }
+  .gallery__rectangle {
+    margin-bottom: 6px; }
+  .gallery__another-photo {
+    width: 372px; }
+  .gallery__main-photo {
+    width: 568px; }
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ededed;
+  padding: 20px; }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 960px; }
+
+.footer-block {
+  width: 300px; }
+  .footer-block__title {
+    font-size: 20px;
+    font-family: Georgia;
+    color: #666; }
+  .footer-block__text {
+    font-size: 12px;
+    color: #989898;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .footer-block__post-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #989898; }
+  .footer-block__post-author {
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #757575; }
+  .footer-block__references {
+    text-align: right;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff5d30; }
+  .footer-block__email {
+    width: 185px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #dddddd;
+    border: 0;
+    padding: 5px; }
+  .footer-block__sign-up {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff5d30;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #dddddd;
+    border: 0;
+    padding: 0; }
+  .footer-block__social {
+    display: flex;
+    flex-wrap: wrap; }
+  .footer-block__social-item {
+    width: 150px; }
+.copyright {
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6% 0 6%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: #919191; }

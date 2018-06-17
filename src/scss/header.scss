@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 960px;
+    height: 120px;
+}
+.logo{
+    font-size: 36px;
+    font-family: Georgia;
+    color: #505050;
+}
+.psd{
+    font-size: 13px;
+    font-family: Georgia;
+    color: #505050;
+}
+.menu{
+    width: 60%;
+    background-color: #303030; 
+    border-radius: 8px;
+    &-list{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        &__link{
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            &:hover{
+                opacity: 0.6;
+            }
+        }
+    }
+}

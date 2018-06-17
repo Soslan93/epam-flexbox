@@ -1,0 +1,22 @@
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.wrapper{
+    width: 960px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #e2e2e2;
+        padding: 40px 20px;
+    }
+}

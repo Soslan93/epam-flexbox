@@ -1,0 +1,67 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ededed;
+    padding: 20px;
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        width: 960px;
+    }
+}
+.footer-block{
+    width: 300px;
+    &__title{
+        font-size: 20px;
+        font-family: Georgia;
+        color: #666;
+    }
+    &__text{
+        font-size: 12px;
+        color: #989898;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    &__post-title{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 13px;
+        color: #989898;
+    }
+    &__post-author{
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #757575;
+    }
+    &__references{
+        text-align: right;
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ff5d30;
+    }
+    &__email{
+        width: 185px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #dddddd;
+        border: 0;
+        padding: 5px;
+    }
+    &__sign-up{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ff5d30;
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #dddddd;
+        border: 0;
+        padding: 0;
+    }
+    &__social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__social-item{
+        width: 150px;
+    }
+}

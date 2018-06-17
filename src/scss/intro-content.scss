@@ -1,0 +1,20 @@
+.intro-content{
+    display: flex;
+    justify-content: space-between;
+    &__item{
+        width: 300px;
+    }
+    &__title{
+        font-size: 26px;
+        font-family: Georgia;
+        color: #666;
+    }
+    &__text{
+        font-size: 13px;
+        font-family: Georgia;
+        color: #666;
+        &--continue{
+            color: #ff5d30;
+        }
+    }
+}
