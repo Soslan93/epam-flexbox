@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    font-family: "GeorgiaRegular";
 }
 .wrapper{
     width: 960px;
@@ -20,3 +21,11 @@ body{
         padding: 40px 20px;
     }
 }
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "GeorgiaRegular"; 
+    // адрес шрифта и тип 
+    src: url("../fonts/ofont.ru_Georgia.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

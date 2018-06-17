@@ -27,8 +27,18 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]*/
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader?name=./src/fonts/ofont.ru_Georgia.ttf'
+                    },
+                    {
+                        loader: 'file-loader?name=./src/fonts/ofont.ru_Georgia.ttf'
+                    }
+                ]
             }
-
         ]
     },
     plugins: [
